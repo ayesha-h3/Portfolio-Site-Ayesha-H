@@ -1,14 +1,143 @@
 /* STYLE SECTIONING TAGS */
 body {
- background-color: lightcyan; 
+ background-image: linear-gradient(#ffebf1, #ffc7d9); 
 }
 
 /* STYLE TEXT */
-
-h1 {
-  color: navy;
+* {
+  padding: 0px;
+  margin:0px;
 }
 
-/* STYLE IMAGES */
 
+  h1 {
+    color: #e2507e;
+    font-size: 8vw;
+    font-family: "gabriola", cursive;
+    margin-top:7%;
+    margin-bottom:7%;
+  }
+  h2{
+    color: #9e1f47;
+    margin:7%;
+    font-size: 5vw;
+    line-height: 30px;
+    font-family: "Didot", Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    text-align: center;
+    font-style:oblique;
+  }
+h3 {
+  font-family: "rage", fantasy;
+  color: #c01148;
+  font-size: 70px;
+  margin: 4%;
+}
+header {
+  text-align: center;
+  line-height: 10px;
+}
+
+p{
+  color:#610a26;
+  font-family: "century gothic", sans serif;
+  font-weight: 200;
+  font-size: 24px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+nav {
+  font-family: "century gothic", sans serif;
+}
+main {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#portfolioText {
+  line-height: 115%;
+  font-size: 5vw;
+}
+
+.tinyText {
+  font-size: 18px;
+  color: #6c3d4c
+}
+
+footer {
+  padding:5px;
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #3a121f;
+  background-color: #f5d1dc;
+}
+
+
+
+/* STYLE IMAGES */
+header {
+img{
+  max-width: 100%;
+  }
+}
+
+#nhd {
+  max-height: 400px;
+}
+#3dprint1 {
+  max-height: 200px;
+  text-align: left;
+}
+#mathteam1 {
+  text-align: right;
+  max-height: 200px;
+}
+#mathteam2 {
+  text-align: right;
+  max-height: 200px;
+}
+#lincoln {
+  max-height: 300px;
+}
+main {
+  img{
+    border-style: solid;
+    border-width: 7px 7px 25px 7px;
+    border-color: white;
+    max-width: 250px;
+    margin: 5px;
+    box-shadow: 10px 10px 5px pink;
+  }
+}
+
+.goat {
+  max-height: 200px;
+}
+.books {
+  display: inline;
+  max-width: 25%;
+}
 /* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #e2507e;
+  overflow: hidden;
+  padding: 2em;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.7em;
+  color: #ffdbeb;
+  padding: 1.12em;
+}
+
+li a:hover {
+  background-color: #f4a4c8;
+}
