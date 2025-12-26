@@ -13,7 +13,12 @@ body {
   h1 {
     color: #e2507e;
     font-size: 8vw;
-    font-family: "gabriola", cursive;
+    font-family: "Rage", "Script MT", "Snell Roundhand", "Lucida Handwriting", cursive;
+    /*Segoe script
+    Rage
+    Script MT
+    Snell Roundhand
+    Lucida Handwriting*/
     margin-top:7%;
     margin-bottom:7%;
   }
@@ -22,7 +27,7 @@ body {
     margin:7%;
     font-size: 5vw;
     line-height: 30px;
-    font-family: "Didot", Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    font-family: "Didot", "Didot LT STD", "Hoefler Text", "Garamond", "Calisto MT", "Times New Roman", "serif";
     text-align: center;
     font-style:oblique;
   }
